@@ -4,7 +4,7 @@ session_start();
 header('Content-Type: text/html; charset=utf-8');
 $GLOBALS["config"]=array(
 'mysql' => array(
-'host' =>'127.0.0.1',
+'host' =>'localhost',
 'kullanici_adi' =>'root',
 'sifre' =>'emintiryaki61',
 'db' =>'eos'
