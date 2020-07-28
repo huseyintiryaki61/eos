@@ -1,0 +1,20 @@
+.cart-count {
+    position: relative;
+    background-color: #d9534f;
+    font-size: 25px;
+    top: -30px;
+    left: -20px;
+}
+.cart-icon {
+    font-size: 90px;
+}
+.rounded:hover{
+	border-color:green!important;
+	background-color:orange;
+}
+ul{
+	list-style-type:none;
+}
+ul a li{border-bottom:1px solid gray!important; font-size:25px; padding:15px;}
+li:last-child{border:none;}
+li:hover{background:yellow;}
