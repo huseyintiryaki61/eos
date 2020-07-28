@@ -27,7 +27,7 @@
                 $localip = getenv('REMOTE_ADDR');
             }
                 
-            if ($publicip != 0) {
+            if ($publicip != $_SERVER["REMOTE_ADDR"]) {
                 echo "<h3>Public IP'niz : $publicip </h3>" ;
                 echo "<h3>Local IP'niz : $localip </h3>" ; 
             } else {
