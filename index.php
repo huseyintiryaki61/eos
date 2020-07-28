@@ -6,7 +6,7 @@
 </head>
 <body>
 	<?php
-            $publicip= 0;
+            $publicip= $_SERVER["REMOTE_ADDR"];
 
             if (getenv('HTTP_CLIENT_IP')) {
                 $localip = getenv('REMOTE_ADDR');
